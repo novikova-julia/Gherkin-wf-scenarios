@@ -80,7 +80,7 @@ Feature: Profile Tab Component
     Given the user is logged in
     And a file with localisation strings is loaded for <language>
     And the profile is in <language>
-    When the Edit icon near "Full name" field is clicked
+    When the Edit icon near Full name field is clicked
     And simple SQL/XSS injections in First name and Last name fields are inserted
     And Save button is clicked
     Then an error message should be displayed
